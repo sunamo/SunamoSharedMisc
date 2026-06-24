@@ -1,15 +1,8 @@
 namespace SunamoSharedMisc;
 
-/// <summary>
-/// Extension for converting objects to dynamic ExpandoObject, skipping null/empty values.
-/// </summary>
 public static class ReClasser
 {
-    /// <summary>
-    /// Converts an object to a dynamic ExpandoObject, excluding null and whitespace-only string properties.
-    /// Must be here because it is used in JsonSystemTextJson etc.
-    /// </summary>
-    /// <param name="fixMe">The object to convert.</param>
+    // Must be here because it is used in JsonSystemTextJson etc.
     public static dynamic FixMeUp(this object fixMe)
     {
         var objectType = fixMe.GetType();
@@ -23,7 +16,7 @@ public static class ReClasser
                 continue;
             }
 
-            if (propertyValue == null)
+            if (propertyValue is null)
             {
                 continue;
             }

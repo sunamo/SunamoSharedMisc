@@ -1,14 +1,8 @@
 namespace SunamoSharedMisc;
 
-/// <summary>
-/// Helper for checking Windows security roles.
-/// </summary>
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 public class WindowsSecurityHelper
 {
-    /// <summary>
-    /// Determines whether the current user has administrator privileges.
-    /// </summary>
     public static bool IsUserAdministrator()
     {
         bool isAdmin;
