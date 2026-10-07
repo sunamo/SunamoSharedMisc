@@ -16,9 +16,9 @@ public class WindowsSecurityHelper
         {
             isAdmin = false;
         }
-        catch (Exception ex)
+        catch (Exception exception)
         {
-            Console.WriteLine(ex.Message);
+            Console.WriteLine(exception.Message);
             isAdmin = false;
         }
 

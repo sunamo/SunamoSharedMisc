@@ -16,7 +16,7 @@ public class ProgressBar
 
     private static List<int> GetAllSongFromInternet(int songCount)
     {
-        for (var i = 0; i < songCount; i++)
+        for (var index = 0; index < songCount; index++)
         {
             AnotherSong?.Invoke();
             Thread.Sleep(100);

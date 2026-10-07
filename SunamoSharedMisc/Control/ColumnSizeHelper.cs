@@ -10,11 +10,11 @@ public class ColumnSizeHelper
         }
 
         widthChange /= columnWidths.Count;
-        for (int i = 0; i < columnWidths.Count; i++)
+        for (int index = 0; index < columnWidths.Count; index++)
         {
-            if (columnWidths[i] != 0)
+            if (columnWidths[index] != 0)
             {
-                columnWidths[i] += widthChange;
+                columnWidths[index] += widthChange;
             }
         }
 
