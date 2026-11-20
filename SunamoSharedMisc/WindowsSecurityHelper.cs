@@ -1,8 +1,15 @@
 namespace SunamoSharedMisc;
 
+/// <summary>
+/// Represents the windows security helper type.
+/// </summary>
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 public class WindowsSecurityHelper
 {
+    /// <summary>
+    /// Is user administrator.
+    /// </summary>
+    /// <returns>The is user administrator result.</returns>
     public static bool IsUserAdministrator()
     {
         bool isAdmin;
