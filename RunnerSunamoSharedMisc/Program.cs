@@ -1,4 +1,3 @@
-// variables names: ok
 namespace RunnerSunamoSharedMisc;
 
 internal class Program
