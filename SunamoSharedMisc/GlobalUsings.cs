@@ -29,7 +29,6 @@ global using SunamoSharedMisc._public;
 global using SunamoSharedMisc._public.SunamoData.Data;
 global using SunamoSharedMisc._public.SunamoEnums.Enums;
 global using SunamoSharedMisc._public.SunamoInterfaces.Interfaces;
-global using SunamoSharedMisc._public.SunamoXlfKeys;
 global using Diacritics.Extensions;
 global using System;
 global using System.Collections;

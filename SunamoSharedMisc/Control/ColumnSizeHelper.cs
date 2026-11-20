@@ -6,7 +6,7 @@ public class ColumnSizeHelper
     {
         if (widthChange == 0)
         {
-            throw new Exception(Translate.FromKey(XlfKeys.ParameterChangeOOfMethodColumnSizeHelperCalculateWidthOfColumnsAgainHasValueCs) + " ");
+            throw new Exception("Parameter change o of method column size helper calculate width of columns again has value" + " ");
         }
 
         widthChange /= columnWidths.Count;
